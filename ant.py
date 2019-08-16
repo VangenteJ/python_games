@@ -20,7 +20,7 @@ def draw():
     turtle.clear()
 
     turtle.goto(ant.x, ant.y)
-    turtle.dot(4)
+    turtle.dot(15)
 
     if turtle.running:
         screen.ontimer(draw, 100)
