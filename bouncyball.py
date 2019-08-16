@@ -32,7 +32,7 @@ def draw():
 
 setup(420, 420, 370, 0)
 hideturtle()
-up()
+up() 
 tracer(False)
 draw()
 done()
